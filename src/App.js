@@ -18,7 +18,7 @@ function App() {
     const [result, setResult] = React.useState(null);
 
     const invoke = () => {
-        fetch('https://gtbd1x27r6.execute-api.eu-central-1.amazonaws.com/dev/suggestEvent', {
+        fetch('https://vbzqg5rap5.execute-api.eu-central-1.amazonaws.com/test', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
