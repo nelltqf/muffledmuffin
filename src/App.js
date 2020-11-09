@@ -18,7 +18,7 @@ function App() {
     const [result, setResult] = React.useState(null);
 
     const invoke = () => {
-        fetch('https://api.muffledmuffin.com/calendar/dev/suggestEvent', {
+        fetch('https://gtbd1x27r6.execute-api.eu-central-1.amazonaws.com/dev/suggestEvent', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
